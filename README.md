@@ -24,8 +24,14 @@ Then you must exit the shell and start a new one for the Python virtual environm
 exit
 ```
 
-## Tasks
+## Tasks Done
+Created a CI pipeline in GitHub Actions with steps for linting and unit testing.
 
+Used Tekton to create tasks for linting, unit testing, and building an image.
+
+Created an OpenShift CI Pipeline that uses the previously created Tekton steps.
+
+Added the deploy step to the OpenShift pipeline that deploys the code to the lab OpenShift cluster. You should complete all the work in the final project in this lab environment.
 
 ## License
 
